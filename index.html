@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- daisy ui link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+<!-- font link -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Hokey Fantasy</title>
+</head>
+<body style="font-family: 'Manrope', sans-serif;">
+
+    <header class=" py-5">
+        <div class="navbar bg-base-100 lg:px-32">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a class="text-[#FF4240]">Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Page</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost font-extrabold text-base">Hokey <span class="text-[#FF4240]">Fantasy</span></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a class="font-bold-800 text-[#FF4240]">Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Page</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn bg-[#FF4240] text-white"> Get Ticket</a>
+            </div>
+          </div>
+          <!-- Hero section -->
+
+       <div class="sm:px-5 lg:relative lg:px-32 px-4">
+        <div class="carousel w-full mt-7">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="Images/4.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+       </div> 
+            
+    <!-- hero-description -->
+    <div class="w-80 bg-black rounded-xl px-9 py-5 lg:absolute  lg:bottom-5 lg:right-36 m-auto">
+        <h4 class="text-white">Meet all the heroes from the field</h4>
+        <p class="text-base text-white">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+    </div>
+
+       </div>
+
+
+
+
+    </header>
+    <main class="max-w-6xl mx-auto">
+    <div class="text-center space-y-4 px-2 mt-14 mb-10">
+        <h4 class="text-3xl font-extrabold">Professional Hockeys Club</h4>
+        <p> Hockey Fantasy Club excels on the ice, blending skill and teamwork for electrifying performances. Rooted in a rich history, we're dedicated to success, fostering talent, and thrilling fans. Join us for an unforgettable journey of victories and sportsmanship.</p>
+    </div>
+
+  
+    <div class="container grid lg:grid-cols-4 items-center gap-2">
+        <div class="box flex flex-col justify-center items-center">
+            <div class="radial-progress text-primary" style="--value:70;" role="progressbar">70%</div>
+        </div>
+    </div>
+    </main>
+    
+</body>
+</html>
