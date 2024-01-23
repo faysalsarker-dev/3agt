@@ -32,7 +32,7 @@
                   <li><a>Contact</a></li>
                 </ul>
               </div>
-              <a class="btn btn-ghost font-extrabold text-base">Hokey <span class="text-[#FF4240]">Fantasy</span></a>
+              <a class="btn btn-ghost font-extrabold text-3xl">Hokey <span class="text-[#FF4240]">Fantasy</span></a>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
@@ -240,7 +240,7 @@
 <section class="container">
   <div class="text-center space-y-4 px-2 mt-20 mb-10 border-y-2 border-dashed p-4">
     <h4 class="text-3xl font-extrabold">Clients Question</h4>
-    <p> Hockey Fantasy Club excels on the ice, blending skill and teamwork for electrifying performances. Rooted in a rich history, we're dedicated to success, fostering talent, and thrilling fans. Join us for an unforgettable journey of victories and sportsmanship.</p>
+    <p>Our hockey training facility offers a comprehensive range of services to enhance players' skills and performance. Our dedicated team provides personalized private lessons, ensuring focused attention on individual development. Whether you're a beginner or looking to refine advanced techniques, our expert coaches tailor sessions to meet your specific needs. Booking is made easy through our user-friendly system, allowing you to secure private lessons at your convenience. Explore our competitive pricings and invest in your hockey journey with us. Elevate your game with top-notch training at our facility, where passion meets proficiency</p>
 </div>
 <div class="lg:flex-row gap-4 p-2 lg:px-2 flex flex-col ">
   <div>
@@ -351,18 +351,19 @@
   </div>
   </div>
   
-  <div class="flex-1 mx-auto">
- <div class="mx-auto">
-  <div class="flex gap-3 lg:flex-row flex-col lg:px-0 px-5">
+  <div class="flex-1 space-y-3 lg:mx-0 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-3">
 
-    <label class="form-control w-full max-w-xs lg:text-left text-center">
-      <div class="label">
-        <span class="label-text text-base font-extrabold">Name</span>
-      </div>
-      <input type="text" placeholder="Type here youre name" class="input input-bordered w-full " />
-     
-    </label>
+ <div class="lg:col-span-1 col-span-2">
+  <label class="form-control w-full max-w-xs lg:text-left text-center">
+    <div class="label">
+      <span class="label-text text-base font-extrabold">Name</span>
+    </div>
+    <input type="text" placeholder="Type here youre name" class="input input-bordered w-full " />
+   
+  </label>
+ </div>
 
+   <div class="lg:col-span-1 col-span-2 -mt-2"> 
     <label class="form-control w-full max-w-xs lg:text-left text-center">
       <div class="label">
         <span class="label-text text-base font-extrabold">Email</span>
@@ -370,12 +371,13 @@
       <input type="text" placeholder="Type here youre Email" class="input input-bordered w-full " />
      
     </label>
+   </div>
 
 
-  </div>
  
-  <div class="flex gap-3 lg:flex-row flex-col lg:px-0 px-5 lg:mt-4">
+ 
 
+   <div class="lg:col-span-1 col-span-2">
     <label class="form-control w-full max-w-xs lg:text-left text-center">
       <div class="label">
         <span class="label-text text-base font-extrabold">Subject</span>
@@ -383,7 +385,9 @@
       <input type="text" placeholder="Subject" class="input input-bordered w-full " />
      
     </label>
+   </div>
 
+   <div class="lg:col-span-1 col-span-2">
     <label class="form-control w-full max-w-xs lg:text-left text-center">
       <div class="label">
         <span class="label-text text-base font-extrabold">Phone Number</span>
@@ -391,23 +395,23 @@
       <input type="text" placeholder="Type here youre Phone Number" class="input input-bordered w-full " />
      
     </label>
+   </div>
     
 
-  </div>
+  
  
- <div class="flex flex-col space-y-2 items-center px-4 lg:px-0">
+ 
   <label class="form-control w-full lg:w-96 lg:text-left text-center">
     <div class="label">
       <span class="label-text text-base font-extrabold">Message</span>
     </div>
-    <textarea placeholder="Bio" class="textarea textarea-bordered textarea-lg w-full max-w-lg h-96" ></textarea>
+    <textarea placeholder="Bio" class="textarea textarea-bordered textarea-lg w-full max-w-lg h-96 col-span-2" ></textarea>
    
   </label>
 
-  <button class="btn bg-[#FF4240] border-0 outline-0 text-white w-10/12">Send Message</button>
- </div>
- </div>
-
+  <button class="btn bg-[#FF4240] border-0 outline-0 text-white col-span-2">Send Message</button>
+ 
+ 
 
   </div>
 </div>
@@ -416,10 +420,80 @@
 
 
 
+
+
+
+
+
+
+
+
+
+<div class="my-16 bg-[#13131808] w-full text-center rounded-xl p-10">
+  <h4 class="text-2xl font-extrabold">Social Media</h4>
+
+  <div class="mt-5"><i class="bi bi-facebook mx-4 text-2xl"></i><i class="bi bi-github  mx-4 text-2xl"></i><i class="bi bi-instagram  mx-4 text-2xl"></i><i class="bi bi-twitter  mx-4 text-2xl"></i></div>
+
+  
+</div>
+
+
+
 </section>
 
 
     </main>
+
+
+
+    <footer class=" p-20 bg-neutral text-neutral-content grid lg:grid-cols-3 grid-cols-1 justify-center lg:justify-start gap-5">
+      <nav class="lg:text-left text-center space-y-4">
+        <header class="footer-title">Get In Touch</header> 
+       <div class="flex flex-col space-y-2">
+        <p class="font-extralight">Welcome to our enchanting hockey fantasy page.</p>
+        <a class="link link-hover"><i class="bi bi-telephone text-red-600"></i> (+62) 123-321-543</a>
+        
+        <a class="link link-hover"><i class="bi bi-envelope-fill text-red-600"></i> hockeys@support.com</a>
+       </div>
+      </nav> 
+     <div class="flex gap-x-50 lg:text-left text-center space-y-4 items-center -mt-2" >
+      <div class="flex-1">
+        <header class="footer-title">Company</header> 
+       <div class="flex flex-col space-y-2">
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+       </div>
+      </div> 
+      <div class="flex-1 lg:text-left text-center space-y-4">
+        <header class="footer-title">Support
+        </header> 
+       <div class="flex flex-col space-y-2">
+        <a class="link link-hover">Help Center
+          
+          
+          </a>
+        <a class="link link-hover">FAQ</a>
+        <a class="link link-hover">Ticket Support</a>
+        <a class="link link-hover">Contact Us</a>
+       </div>
+      </div> 
+     </div>
+      <nav class="lg:text-left text-center space-y-4 lg:mx-auto ml-0">
+        <header class="footer-title">Services</header> 
+        <div class="flex flex-col space-y-2">
+          <a class="link link-hover">Academy
+            Group Lesson
+            
+            
+            </a>
+        <a class="link link-hover">Private Lesson</a>
+        <a class="link link-hover">Hockeys for kids</a>
+        <a class="link link-hover">Hockeys for Adul</a>
+        </div>
+      </nav>
+    </footer>
     
 </body>
 </html>
